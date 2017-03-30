@@ -1,0 +1,103 @@
+/*
+Theme Name: My Custom WP Theme
+Theme URI: 
+Author: Katherine Hambley
+Author URI: http://wordpress.org/
+Description: A blank WordPress theme for getting started with custom theme development
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: my-blank-theme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@font-face {
+	font-family: "BrandonGrotW01-Regular";
+	src: url("/fonts/BrandonGrot1.woff");
+}
+body {
+	font-family: 'BrandonGrotW01-Regular', sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.7;
+	background-color: #ccc;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: bold;
+}
+.content {
+	background: #fff;
+	min-height: 800px;
+}
+.no-padding {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.navbar-nav > li > a {
+	color: #000;
+	font-weight: bold;
+}
+.navbar-fixed-top {
+	top: 6.5%;
+}
+.logo {
+	min-height: 100px;
+}
+.logo a img {
+	position: fixed;
+	top: 3px !important;
+	z-index: 1100 !important;
+}
+.navbar-nav {
+	float: right;
+}
+.navbar-inverse {
+	background-color: #e11f26;
+	border-color: #b90c13;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+}
+.colorbar {
+	background-color: #000;
+	height: 50px;
+}
+.footer {
+	background-color: #000;
+	color: #fff;
+	padding: 20px;
+}
+.footer-nav {
+	text-decoration: none;
+	list-style: none;
+	margin-top: 10px;
+	padding: 0px;
+}
+.footer-nav > li > a {
+	color: #ccc;
+}
+.content-row {
+	min-height: 350px;
+}
+.social {
+	padding-left: 100px;
+}
+.no-padding {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+/*  Product Single Page Slider */
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
