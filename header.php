@@ -16,8 +16,10 @@
     <?php wp_head(); ?>
   </head>
   <body>
+   
   <div class="container logo">
-    <a href="<?php bloginfo('url'); ?>"><img src="img/TekPocket_Logo.png" class="img-responsive" /></a>
+ 
+    <a href="<?php bloginfo('url'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/TekPocket_Logo.png" class="img-responsive" /></a>
   </div>
   
   <nav class="navbar navbar-inverse navbar-fixed-top navbar-custom pull-right" role="navigation">

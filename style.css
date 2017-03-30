@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5 {
 .content {
 	background: #fff;
 	min-height: 800px;
+	
 }
 .no-padding {
 	padding-left: 0px;
@@ -43,6 +44,8 @@ h1, h2, h3, h4, h5 {
 }
 .logo {
 	min-height: 100px;
+	background-color: #fff;
+	
 }
 .logo a img {
 	position: fixed;
@@ -100,4 +103,9 @@ h1, h2, h3, h4, h5 {
 
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     width: 100%;
+}
+.top_bar {
+	background-color: #fff;
+	top: 0;
+	min-height: 30px;
 }
