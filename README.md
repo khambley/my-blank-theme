@@ -2,7 +2,7 @@
 
 Here is the link to my profile [Treehouse](https://teamtreehouse.com/khambley).
 
-Here is the link to the course, [Wordpress Theme Development] (https://teamtreehouse.com/library/wordpress-theme-development).
+Here is the link to the course [Wordpress Theme Development] (https://teamtreehouse.com/library/wordpress-theme-development).
 
 Feb 8, 2017 - Starting a WordPress Theme
 
