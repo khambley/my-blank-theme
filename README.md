@@ -1,4 +1,6 @@
-## I'm following along with WordPress Theme Development on teamtreehouse.com, learning how to create my own WP theme and extend it with WooCommerce completely from scratch.
+## I'm following along with WordPress Theme Development on teamtreehouse.com.
+
+## I'm learning how to create my own WP theme and extend it with WooCommerce completely from scratch.
 
 Here is the link to my profile [Treehouse](https://teamtreehouse.com/khambley).
 
