@@ -2,7 +2,7 @@
 function mytheme_theme_styles() {
     wp_enqueue_style( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' );
     wp_enqueue_style( 'normalize', get_template_directory_uri() . 'css/normalize.css');
-    wp_enqueue_style( 'my-style', get_template_directory_uri() . 'css/style.css');
+    wp_enqueue_style( 'my-style', get_template_directory_uri() . '/style.css');
 }
 add_action('wp_enqueue_scripts', 'mytheme_theme_styles');
 
