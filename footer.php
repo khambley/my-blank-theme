@@ -1,4 +1,5 @@
 <!--Footer-->
+    <div class="container">
       <div class="row">
         <div class="col-md-12 footer">
           <div class="col-md-3">
@@ -58,5 +59,14 @@
             </ul>
           </div>
         </div>
+      </div> <!--End Row-->
+      <div class="row footer">
+        <p>Copyright &copy; <?php echo date('Y'); ?> <?php bloginfo('name');?> LLC. All Rights Reserved.</p>
       </div>
+      </div> <!--End Footer Container-->
     </div> <!--End Content container-->
+
+    <?php wp_footer(); ?>
+
+    </body>
+</html>
