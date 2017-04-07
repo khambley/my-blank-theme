@@ -1,4 +1,6 @@
+
 <?php
+
 function mytheme_theme_styles() {
     wp_enqueue_style( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' );
     wp_enqueue_style( 'normalize', get_template_directory_uri() . '/css/normalize.css');
@@ -13,6 +15,5 @@ function mytheme_theme_js() {
     wp_enqueue_script( 'modernizr-js', get_template_directory_uri() . '/js/modernizr-custom.js', '', '', false);
 }
 add_action('wp_enqueue_scripts', 'mytheme_theme_js');
-
 
 ?>
